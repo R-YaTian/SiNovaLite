@@ -1,0 +1,23 @@
+LIBRARY SiNova
+
+EXPORTS
+
+NovaVersion   @ 1
+Hook          @ 2
+ProcessEndEx  @ 3
+
+LoadKeyBuf    @ 101
+LoadDKeySet   @ 102
+UpdateKeys    @ 103
+
+TypeInActivate   @ 201
+GetTypeInText    @ 202
+SetTypeInPos     @ 203
+TypeInDeactivate @ 204
+
+MouseLock   @ 301
+MouseUnLock @ 302
+GetMousePos @ 303
+SetMousePos @ 304
+MouseZ      @ 305
+MouseZReset @ 306
